@@ -1,0 +1,14 @@
+["SaintChameleon/multiserver"] = {
+      ["multiserver"] = {
+        files = {
+          ["master/multiserver.lua"] = "/",
+          ["master/slave_server_script.lua"] = "/"
+        },
+        name = "multiserver",--This is for "oppm info"
+        description = "Package for make calculation faster with many computers",
+        authors = "Lauriero"
+        note = "Additional installation instructions, general instructions and additional information/notes go here, this is an optional line.",
+        hidden = true, -- Add this optional line to make your package not visible in "oppm list", useful for custom dependency libraries
+        repo="tree/master/somefolder" --Used by the website. This is where the package will link to on the website
+      },
+    },
